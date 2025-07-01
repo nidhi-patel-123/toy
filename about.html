@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+ <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+</head>
+<body>
+  
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo"><img src="./images/logo2.png" alt="" style="height: 50px;object-fit: cover;width: 200px;"></div>
+    <nav class="nav-links mt-2">
+      <ul class="desktop-menu">
+        <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+        <li><a href="about.html">About-Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        
+        <li><a href="Collections.html">Collections</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Contact-Us.html">Contact-Us</a></li>
+        
+      </ul>
+    </nav>
+    <div class="menu-icon" id="menuToggle"><i class="fas fa-bars"></i></div>
+  </div>
+</header>
+
+<!-- Mobile Sidebar -->
+<aside class="mobile-menu" id="mobileMenu">
+  <div class="menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu"><i class="fas fa-times"></i></button>
+  </div>
+  <ul class="mobile-nav">
+    <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+    <li><a href="about.html">About-Us</a></li>
+    <li><a href="shop.html">Shop</a></li>
+ 
+    <li><a href="Collections.html">Collections</a></li>
+    <li><a href="Blog.html">Blog</a></li>
+    <li><a href="Contact-Us.html">Contact-Us</a></li>
+    
+  </ul>
+</aside>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay">
+  
+</div>
+
+<section class="about-us-section">
+    <h2>ABOUT US</h2>
+  </section>
+
+
+
+<!-- ------------------------ab-------------------------- -->
+ <section class="about-section">
+  <!-- Floating images -->
+  <img src="https://www.radiustheme.com/demo/wordpress/themes/toyup/wp-content/uploads/2023/12/banner3-element_03.svg" class="float-img float-img-1" alt="Umbrella">
+  <img src="https://www.radiustheme.com/demo/wordpress/themes/toyup/wp-content/uploads/2023/12/parasuit-2.svg" class="float-img float-img-2" alt="Balloon">
+  <!-- <img src="https://cdn-icons-png.freepik.com/256/2519/2519826.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" class="float-img float-img-3" alt="Sun"> -->
+  <img src="https://cdn-icons-png.freepik.com/256/4665/4665511.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" class="float-img float-img-4" alt="Rainbow">
+  <img src="https://www.radiustheme.com/demo/wordpress/themes/toyup/wp-content/uploads/2024/01/cloud-2.svg" class="float-img float-img-5" alt="Cloud">
+
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left Image -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="about-img-wrapper">
+          <img src="https://img.freepik.com/free-photo/siblings-together-playing-with-toys_1398-3964.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" alt="Kids playing" style="width: 500px;height: 500px;">
+        </div>
+      </div>
+
+      <!-- Right Text -->
+      <div class="col-lg-6">
+        <div class="about-text">
+          <h6>ABOUT US</h6>
+          <h2>Unleash endless adventures – your toy kingdom awaits!</h2>
+          <p>When an unknown printer took a galley of type and scrambled it to make type specimen book. It has survived not only five centuries, but also the leap types remaining essentially unchangedIt was popularised.</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="row about-cards mt-4">
+          <div class="col-md-6">
+            <div class="card text-center">
+              <div class="icon text-info">
+               <i class="fa-solid fa-boxes-stacked"></i>
+              </div>
+              <h5>Variety of Toys</h5>
+              <p>Lorem ipsum dolor sit amet contur. egestas pretium massa.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card text-center">
+              <div class="icon text-warning">
+              <i class="fa-solid fa-shield-cat"></i>
+              </div>
+              <h5>Safety Standards</h5>
+              <p>Lorem ipsum dolor sit amet contur. egestas pretium massa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <!-- Left Content -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h2 class="fw-bold mb-4">Why Choose Us</h2>
+
+        <div class="d-flex mb-4">
+          <div class="feature-icon">
+            <img src="https://cdn-icons-png.freepik.com/256/12140/12140740.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="Icon" width="30">
+          </div>
+          <div>
+            <h6 class="fw-bold">Premium toys products</h6>
+            <p class="mb-0 text-muted">In nulla posuere sollicitudin aliquam ultrices sagittis.</p>
+            <p class="mb-0 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+          </div>
+        </div>
+
+        <div class="d-flex mb-4">
+          <div class="feature-icon">
+            <img src="https://cdn-icons-png.freepik.com/256/12578/12578649.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="Icon" width="30">
+          </div>
+          <div>
+            <h6 class="fw-bold">More than 60k+ unique product</h6>
+            <p class="mb-0 text-muted">Ipsum a arcu cursus vitae congue mauris rhoncus.</p>
+            <p class="mb-0 text-muted">Lorem, ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div class="feature-icon">
+            <img src="https://cdn-icons-png.freepik.com/256/8809/8809967.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="Icon" width="30">
+          </div>
+          <div>
+            <h6 class="fw-bold">Free shipping available</h6>
+            <p class="mb-0 text-muted">Montes nascetur ridiculus mus mauris vitae ultricies.</p>
+            <p class="mb-0 text-muted">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 text-center" data-aos="fade-left">
+        <div class="circle-image mx-auto">
+          <img src="https://img.freepik.com/free-photo/asian-boy-girl-are-happily-playing-colorful-wood-block-toy_1150-6274.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" alt="Girl with toy"  style="width: 100%;height: 400px;object-fit: cover;"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Material Row -->
+    <div class="row mt-5 pt-4 g-4" data-aos="fade-up">
+      <div class="col-md-3 col-sm-6">
+        <div class="material-box">
+          <div class="material-icon">
+            <img src="https://toytime-theme.myshopify.com/cdn/shop/files/Cotton.png?v=1707979112&width=275" width="40" alt="cotton">
+          </div>
+          <h5 class="fw-bold">Cotton 76%</h5>
+          <p class="text-muted">Proin libero nunc consequat interdum. Gravida dictum fusce ut placerat.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="material-box">
+          <div class="material-icon">
+            <img src="https://cdn-icons-png.freepik.com/256/9293/9293343.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" width="40" alt="wool">
+          </div>
+          <h5 class="fw-bold">Wool 11%</h5>
+          <p class="text-muted">Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="material-box">
+          <div class="material-icon">
+            <img src="https://cdn-icons-png.freepik.com/256/18569/18569396.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" width="40" alt="rubber">
+          </div>
+          <h5 class="fw-bold">Rubber 10%</h5>
+          <p class="text-muted">Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="material-box">
+          <div class="material-icon">
+            <img src="https://cdn-icons-png.freepik.com/256/8584/8584350.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" width="40" alt="polyester">
+          </div>
+          <h5 class="fw-bold">Polyester 3%</h5>
+          <p class="text-muted">Quisque a sapien congue leo blandit portae vel ante ut felis molestie vehis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <img src="https://wdtcutie.wpengine.com/wp-content/uploads/2024/02/heading-icon-09.png" alt="flowers" style="height:40px;">
+        <h2 class="mt-2">Children's Play Gallery</h2>
+        <p class="text-muted">Senectus et netus et malesuada fames ac turpis egestas maecenas. Facilisi etiam dignissim.</p>
+      </div>
+
+      <div class="row g-3">
+        <!-- Promo Card -->
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="promo-card">
+            <h6>Games & Puzzles</h6>
+            <h4 class="fw-bold">Amazing Toy<br>Collections For Kids</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus magnam. Pariatur consectetur aspernatur cupiditate aliquam eaque. Rerum excepturi ut voluptatem ad, quibusdam temporibus maiores laudantium aliquam dolorem, optio corrupti!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, mollitia.</p>
+            <p>Only $25.99</p>
+            <button class="btn">SHOP ALL PRODUCTS</button>
+            <img src="https://cdn-icons-png.freepik.com/256/13932/13932694.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="toys" />
+          </div>
+        </div>
+
+        <!-- Main Gallery Image 1 -->
+        <div class="col-lg-4" data-aos="zoom-in">
+          <img src="https://images.unsplash.com/photo-1501686637-b7aa9c48a882?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHRveXN8ZW58MHx8MHx8fDA%3D" class="img-fluid gallery-img rounded-img" alt="" style="height: 99%;">
+        </div>
+
+        <!-- Main Gallery Image 2 -->
+        <div class="col-lg-4" data-aos="fade-left">
+          <div class="row g-3">
+            <div class="col-12">
+              <img src="https://img.freepik.com/free-photo/abstract-art-made-from-3d-geometric-shapes_23-2150829281.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+            </div>
+            <div class="col-12 mt-3">
+              <img src="https://img.freepik.com/free-photo/cute-plush-toys-arrangement_23-2150312286.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="" sty> 
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Thumbnails -->
+        <div class="row mt-3 g-3 bottom-gallery" data-aos="fade-up">
+          <div class="col-6 col-md-3">
+            <img src="https://img.freepik.com/free-photo/two-tranquil-children-playing-with-wooden-toys_1398-4116.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://images.unsplash.com/photo-1575881737088-a5a2bbf44e85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHRveXN8ZW58MHx8MHx8fDA%3D" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://img.freepik.com/premium-photo/preschool-boy-girl-playing-floor-with-educational-toys-children-toddlers-h-generative-ai_874904-77078.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://img.freepik.com/free-photo/adorable-hispanic-toddler-standing-with-serious-expression-kindergarten_839833-5492.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ---------------------------------------------------------------------------------------- -->
+   <!-- Feature Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <div class="icon-box ">
+          <img src="https://img.icons8.com/ios-filled/50/FFFFFF/task.png" alt="History Icon" />
+        </div>
+        <h5 class="fw-bold">Our History</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur. Erat dui mauris egestas vitthere are mant otheres thingae. Magna ipsum phasellus in there pulvinar sed faucibus.</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon-box orange">
+          <img src="https://img.icons8.com/ios-filled/50/FFFFFF/goal.png" alt="Mission Icon" />
+        </div>
+        <h5 class="fw-bold">Our Mission</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur. Erat dui mauris egestas vitthere are mant otheres thingae. Magna ipsum phasellus in there pulvinar sed faucibus.</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon-box blue">
+          <img src="https://img.icons8.com/ios-filled/50/FFFFFF/visible.png" alt="Support Icon" />
+        </div>
+        <h5 class="fw-bold">24/7 Support</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur. Erat dui mauris egestas vitthere are mant otheres thingae. Magna ipsum phasellus in there pulvinar sed faucibus.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- Video Section -->
+<section class="video-section">
+  <img src="https://img.freepik.com/free-photo/kids-playing-with-eco-toys-full-shot_23-2149884380.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" alt="Video Thumbnail" style="height: 50vh;object-fit: cover;" />
+  <a href="https://www.youtube.com/shorts/S9UmELPQUqM" class="video-btn">
+    <img src="https://cdn-icons-png.freepik.com/256/15389/15389455.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="Play Button" />
+  </a>
+</section>
+
+
+<!-- Testimonial Carousel -->
+<section class="py-5">
+  <div class="container">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide text-center p-4 shadow rounded bg-white">
+          <img src="https://randomuser.me/api/portraits/women/1.jpg" class="rounded-circle mb-3" width="80">
+          <div class="quote-icon mb-2">
+            <span class="badge rounded-circle bg-info text-white fs-5">“</span>
+          </div>
+          <div class="mb-2 text-warning">
+            ★★★★★
+          </div>
+          <p class="mb-3">“ When an unknown printer took a galley offer type are anding scrambled it to make follow type area wing specimen area book. “</p>
+          <hr>
+          <h6 class=" fw-bold m-0">LISA K. BERG</h6>
+          <small class="text-muted">CEO @CODEFILL</small>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide text-center p-4 shadow rounded bg-white">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" width="80">
+          <div class="quote-icon mb-2">
+            <span class="badge rounded-circle bg-info text-white fs-5">“</span>
+          </div>
+          <div class="mb-2 text-warning">
+            ★★★★★
+          </div>
+          <p class="mb-3">“ When an unknown printer took a galley offer type are anding scrambled it to make follow type area wing specimen area book. “</p>
+          <hr>
+          <h6 class=" fw-bold m-0">RICHARD A. WHALEN</h6>
+          <small class="text-muted">CEO @CODEFILL</small>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide text-center p-4 shadow rounded bg-white">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-3" width="80">
+          <div class="quote-icon mb-2">
+            <span class="badge rounded-circle bg-info text-white fs-5">“</span>
+          </div>
+          <div class="mb-2 text-warning">
+            ★★★★★
+          </div>
+          <p class="mb-3">“ When an unknown printer took a galley offer type are anding scrambled it to make follow type area wing specimen area book. “</p>
+          <hr>
+          <h6 class=" fw-bold m-0">JENNEY WHALEN</h6>
+          <small class="text-muted">CEO @CODEFILL</small>
+        </div>
+         <!-- Slide 3 -->
+        <div class="swiper-slide text-center p-4 shadow rounded bg-white">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-3" width="80">
+          <div class="quote-icon mb-2">
+            <span class="badge rounded-circle bg-info text-white fs-5">“</span>
+          </div>
+          <div class="mb-2 text-warning">
+            ★★★★★
+          </div>
+          <p class="mb-3">“ When an unknown printer took a galley offer type are anding scrambled it to make follow type area wing specimen area book. “</p>
+          <hr>
+          <h6 class=" fw-bold m-0">JENNEY WHALEN</h6>
+          <small class="text-muted">CEO @CODEFILL</small>
+        </div>
+        
+      </div>
+      <!-- Navigation Arrows -->
+      <!-- <div class="swiper-button-prev"></div> -->
+      <!-- <div class="swiper-button-next"></div> -->
+    </div>
+  </div>
+</section>
+
+<!-- Discount Section -->
+<section class=" text-white rounded mx-3 my-5" style="background-color: rgb(28, 75, 102);">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start">
+      <div class="col-md-8">
+        <h2 class="fw-bold">Get 25% discount in all kind of <br> super hero theme</h2>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="position-relative d-inline-block">
+          <img src="./images/ablast1.png" alt="Discount" class="img-fluid" style="height: 250px;width: 100%;">
+          <div class="position-absolute top-0 start-0 bg-white text-dark fw-bold rounded-circle px-3 py-2" style="transform: translate(10%, 10%);">
+            25%<br><small>OFF</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer container-fluid">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Logo & Text -->
+      <div class="col-lg-3 col-md-6">
+        <div class="logo"><img src="./images/logo2.png" alt="" style="width: 200px;object-fit: cover;"></div>
+        <p class="mt-3">The middle of text all the lorem Ipsum generaton the Internet tend to repeatare going to use a passage.</p>
+        <p class="fw-bold mt-3">Download app :</p>
+        <div class="app-buttons d-flex">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png" alt="Google Play">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+        </div>
+      </div>
+
+      <!-- Know us -->
+      <div class="col-lg-2 col-md-6">
+        <h6>Know us</h6>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Faq’s</a></li>
+          <li><a href="#">Blog post</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">My wishlist</a></li>
+          <li><a href="#">Return policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Our store -->
+      <div class="col-lg-2 col-md-6">
+        <h6>Our store</h6>
+        <ul>
+          <li><a href="#">Store map</a></li>
+          <li><a href="#">Our gallery</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Main shop</a></li>
+          <li><a href="#">Store site</a></li>
+          <li><a href="#">Discount</a></li>
+        </ul>
+      </div>
+
+      <!-- Useful links -->
+      <div class="col-lg-2 col-md-6">
+        <h6>Useful links</h6>
+        <ul>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Return policy</a></li>
+          <li><a href="#">Faqs</a></li>
+          <li><a href="#">Payment policy</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Terms & condition</a></li>
+        </ul>
+      </div>
+
+      <!-- Instagram -->
+      <div class="col-lg-3 col-md-12">
+        <h6>Follow on instagram</h6>
+        <div class="instagram d-flex flex-wrap">
+          <img src="https://cdn-icons-png.freepik.com/256/7105/7105764.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img1">
+          <img src="https://cdn-icons-png.freepik.com/256/2023/2023639.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img2">
+          <img src="https://cdn-icons-png.freepik.com/256/2123/2123740.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img3">
+          <img src="https://cdn-icons-png.freepik.com/256/2242/2242585.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img4">
+          <img src="https://cdn-icons-png.freepik.com/256/1737/1737875.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img5">
+          <img src="https://cdn-icons-png.freepik.com/256/1390/1390264.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img6">
+          <img src="https://cdn-icons-png.freepik.com/256/771/771122.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img6">
+          <img src="https://cdn-icons-png.freepik.com/256/11200/11200097.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img6">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Birds -->
+  <img src="https://cdn-icons-png.freepik.com/256/2514/2514694.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" class="bird-left" width="100" alt="Bird Left">
+  <img src="https://cdn-icons-png.freepik.com/256/6975/6975147.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" class="bird-right" width="100" alt="Bird Right">
+
+  <!-- Back to Top -->
+  <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fa-solid fa-upload"></i></button>
+</footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 2000,      // 2 seconds
+      disableOnInteraction: false
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+
+

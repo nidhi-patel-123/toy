@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+</head>
+<body>
+  
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <div class="container">
+    <div class="logo"><img src="./images/logo2.png" alt="" style="height: 50px;object-fit: cover;width: 200px;"></div>
+    <nav class="nav-links mt-2">
+      <ul class="desktop-menu">
+        <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+        <li><a href="about.html">About-Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        
+        <li><a href="Collections.html">Collections</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Contact-Us.html">Contact-Us</a></li>
+        
+      </ul>
+    </nav>
+    <div class="menu-icon" id="menuToggle"><i class="fas fa-bars"></i></div>
+  </div>
+</header>
+
+<!-- Mobile Sidebar -->
+<aside class="mobile-menu" id="mobileMenu">
+  <div class="menu-header">
+    <h3>Menu</h3>
+    <button id="closeMenu"><i class="fas fa-times"></i></button>
+  </div>
+  <ul class="mobile-nav">
+    <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+    <li><a href="about.html">About-Us</a></li>
+    <li><a href="shop.html">Shop</a></li>
+ 
+    <li><a href="Collections.html">Collections</a></li>
+    <li><a href="Blog.html">Blog</a></li>
+    <li><a href="Contact-Us.html">Contact-Us</a></li>
+    
+  </ul>
+</aside>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay">
+  
+</div>
+
+
+ <section class="hero-section d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <p class=" fw-semibold mb-2" data-aos="fade-down" data-aos-delay="100" style="color: #81b29a;">
+        Best Room Accessories 20 % Off
+      </p>
+      <h1 class="display-4 fw-bold mb-3" data-aos="zoom-in" data-aos-delay="300">
+        Decorate Your Kid Room
+      </h1>
+      <p class="text-secondary mb-4 px-lg-5" data-aos="fade-up" data-aos-delay="500">
+        Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.
+        Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s.
+        Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.
+        Lorem Ipsum Has Been The Industry's Standard.
+      </p>
+      <a href="#" class="btn btn-primary px-4 py-2 rounded-3" data-aos="fade-up" data-aos-delay="700">
+        Shop Accessories
+      </a>
+    </div>
+  </section>
+
+<!-- ---------------------------------------------------------------------------------- -->
+<section class="py-5 toy-section">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <!-- Left Image -->
+      <div class="col-lg-6 text-center text-lg-start">
+        <div class="image-wrapper position-relative">
+          <img src="https://toytime-theme.myshopify.com/cdn/shop/files/Mask_group_3514798e-7d90-4144-a900-c6b97e546f20.png?v=1707983159&width=750" alt="Toy Girl" class="img-fluid rounded-circle custom-circle" style="height: 500px;width:100%" />
+          
+        </div>
+      </div>
+      
+      <!-- Right Content -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-4">The Unique Appeal Of Toy Time <br>Toys & Games</h2>
+        
+        <!-- Feature 1 -->
+        <div class="d-flex align-items-start mb-4">
+          <div class="icon-box me-3">
+            <img src="https://cdn-icons-png.freepik.com/256/16779/16779050.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="" style="width: 50px;height: 50px;">
+            
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Exclusive Toy Collections</h6>
+            <p class="text-muted mb-0">Enim diam vulputate ut pharetra. Adipiscing elit pellentesque habitant morbi tristique.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="d-flex align-items-start mb-4">
+          <div class="icon-box me-3">
+            <img src="https://cdn-icons-png.freepik.com/256/2107/2107369.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="" style="width: 50px;height: 50px;">
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Extensive Toy Assortment</h6>
+            <p class="text-muted mb-0">Viverra maecenas accumsan lacus vel. Sed viverra ipsum nunc aliquet bibendum enim.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="d-flex align-items-start">
+          <div class="icon-box me-3">
+            <img src="https://cdn-icons-png.freepik.com/256/191/191554.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="" style="width: 50px;height: 50px;">
+
+          </div>
+          <div>
+            <h6 class="fw-bold mb-1">Complimentary Shipping</h6>
+            <p class="text-muted mb-0">Nibh praesent tristique magna sit amet. Lorem ipsum is simply dummy text printing typesetting industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section class="py-5 text-center">
+   <div class="container">
+     <h2 class="category-heading">Shop By Category</h2>
+      <div class="row justify-content-center flex-wrap">
+        <!-- Item 1 -->
+        <div class="col-6 col-sm-4 col-md-2 category-item d-flex flex-column align-items-center">
+          <div class="category-circle" style="background-color: #ffe2dc;">
+            <img src="https://playgrow.qodeinteractive.com/wp-content/uploads/2022/11/h1-img-12.jpg" alt="Travel Treasures">
+          </div>
+          <div class="category-title">Travel Treasures</div>
+        </div>
+        <!-- Item 2 -->
+        <div class="col-6 col-sm-4 col-md-2 category-item d-flex flex-column align-items-center">
+          <div class="category-circle red-dotted" style="background-color: #f5f5f5;">
+            <img src="https://playgrow.qodeinteractive.com/wp-content/uploads/2022/11/h1-img-20.jpg" alt="Wooden Wonders">
+          </div>
+          <div class="category-title">Wooden Wonders</div>
+        </div>
+        <!-- Item 3 -->
+        <div class="col-6 col-sm-4 col-md-2 category-item d-flex flex-column align-items-center">
+          <div class="category-circle" style="background-color: #e3e1f5;">
+            <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/04/shop-single-img-92.jpg" alt="Pull Toys">
+          </div>
+          <div class="category-title">Pull Toys</div>
+        </div>
+        <!-- Item 4 -->
+        <div class="col-6 col-sm-4 col-md-2 category-item d-flex flex-column align-items-center">
+          <div class="category-circle" style="background-color: #e6f4d3;">
+            <img src="https://img.freepik.com/free-photo/illustration-happy-anniversary-gift-box-present-banner_53876-132208.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" alt="Squeaky Toys">
+          </div>
+          <div class="category-title">Squeaky Toys</div>
+        </div>
+        <!-- Item 5 -->
+        <div class="col-6 col-sm-4 col-md-2 category-item d-flex flex-column align-items-center">
+          <div class="category-circle" style="background-color: #efefef;">
+            <img src="https://img.freepik.com/free-photo/fluffy-toy-texture-close-up_23-2149686919.jpg?t=st=1751345683~exp=1751349283~hmac=46e8788cb220247764b973872c64d944af59f780e0db124ebe216567b06f1024&w=1800" alt="Melody Mates">
+          </div>
+          <div class="category-title">Melody Mates</div>
+        </div>
+      </div>
+      <!-- <div class="category-dots"></div> -->
+    </div>
+  </section>
+
+<!-- ----------------------------------------------------------- -->
+<div class="container py-5">
+  <div class="row g-4">
+    <!-- Left Column -->
+    <div class="col-lg-6 d-flex flex-column justify-content-between">
+      <!-- Top Box -->
+      <div class="promo-box mb-4" data-aos="fade-up">
+        <h6 style="color: #81b29a;">20% Off On All Items</h6>
+        <h3>Kids Room Decoration Accessories</h3>
+        <p>Interesting Features Is Rich And Colorful, Each Button To Bring A Surprise To The Baby Introduction To Give Your Child Learn.</p>
+        <div class="promo-img-wrapper">
+          <img src="https://birthblessing-accessories.mybigcommerce.com/product_images/uploaded_images/topbanner.jpg" alt="Kids Room" />
+        </div>
+      </div>
+
+      <!-- Bottom Box -->
+      <div class="promo-box" data-aos="fade-up" data-aos-delay="100">
+        <h6 style="color: #81b29a;">20% Off On All Items</h6>
+        <h3>Decorate Your Kid Room With Toys</h3>
+        <p>Interesting Features Is Rich And Colorful, Each Button To Bring A Surprise To The Baby Introduction To Give Your Child Learn.</p>
+        <div class="promo-img-wrapper">
+          <img src="https://birthblessing-accessories.mybigcommerce.com/product_images/uploaded_images/topbanner2.jpg" alt="Kid Toys" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-lg-6">
+      <div class="promo-box large-img-box h-100" data-aos="fade-left">
+        <h6 style="color: #81b29a;">30% Off On All Items</h6>
+        <h3>Beautiful And Latest Wood Toys</h3>
+        <p>Interesting Features Is Rich And Colorful, Each Button To Bring A Surprise To The Baby Introduction To Give Your Child Learn.</p>
+        <p>Interesting Features Is Rich And Colorful, Each Button To Bring A Surprise To The Baby Introduction To Give Your Child Learn.</p>
+        <div class="promo-img-wrapper">
+          <img src="https://birthblessing-accessories.mybigcommerce.com/product_images/uploaded_images/topbanner3.jpg" alt="Wood Toys" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Blog Section -->
+<section class="blog-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">READ OUR BLOG</h2>
+      <p class="text-muted">Dignissim enim sit amet venenatis urna convallis ae<br>nean et tortor etiam non qu.</p>
+    </div>
+    <div class="row g-4">
+      
+      <!-- Blog Card 1 -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card border-0">
+          <div class="position-relative">
+           
+               <img src="https://img.freepik.com/premium-photo/house-made-wooden-blocks-assemble-near-atoy-wooden-toy-car_155165-4372.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="card-img-top" alt="Blog Image 2">
+            <div class="blog-date-box">
+              <span class="date">5</span>
+              <span class="month">MAY</span>
+            </div>
+          </div>
+          <div class="card-body px-0">
+            <h5 class="card-title fw-semibold">Fun colourful cutlery for toddlers to more enjoy dining</h5>
+            <p class="card-text text-muted">Pretium fusce id velit ut tortor. Euismod quis viverra nibh cras pulvinar mattis nunc. Arcu felis bibendum ut tristique et egestas ipsum. Sed risus ultricies tristique nulla aliquet.</p>
+            <a href="#" class="read-more">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card border-0">
+          <div class="position-relative">
+          <img src="https://img.freepik.com/free-photo/cute-fluffy-monkey-toys_23-2149642394.jpg?t=st=1751351733~exp=1751355333~hmac=0d7fe7301d9cd496d87bde2d2438cb4ffe69c396fcf7fda0d325b49cf9c2cc23&w=1800" class="card-img-top" alt="Blog Image 1">
+            <div class="blog-date-box">
+              <span class="date">9</span>
+              <span class="month">MAY</span>
+            </div>
+          </div>
+          <div class="card-body px-0">
+            <h5 class="card-title fw-semibold">Fun childhood with furry toys ready for best cuddles</h5>
+            <p class="card-text text-muted">Pretium fusce id velit ut tortor. Euismod quis viverra nibh cras pulvinar mattis nunc. Arcu felis bibendum ut tristique et egestas ipsum. Sed risus ultricies tristique nulla aliquet.</p>
+            <a href="#" class="read-more">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card border-0">
+          <div class="position-relative">
+            <img src="https://img.freepik.com/free-photo/plastic-dinosaur-floor_23-2147663839.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="card-img-top" alt="Blog Image 3">
+            <div class="blog-date-box">
+              <span class="date">13</span>
+              <span class="month">MAY</span>
+            </div>
+          </div>
+          <div class="card-body px-0">
+            <h5 class="card-title fw-semibold">Dotted design summertime swimsuit collection for toddlers</h5>
+            <p class="card-text text-muted">Pretium fusce id velit ut tortor. Euismod quis viverra nibh cras pulvinar mattis nunc. Arcu felis bibendum ut tristique et egestas ipsum. Sed risus ultricies tristique nulla aliquet.</p>
+            <a href="#" class="read-more">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <div class="container py-5">
+    <div class="section-title" data-aos="fade-down">
+      <h6 class="text-uppercase text-muted">Creative Toys</h6>
+      <h2 class="fw-bold">Our Newest Arrivals</h2>
+    </div>
+
+    <div class="row g-4">
+      <!-- Loop Starts -->
+      <!-- Repeat for each product -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/04/board-games-product14.jpg" alt="Mystery Puzzle" style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Mystery Puzzle</div>
+          <div class="price">$87.00</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/03/shop-single-img-16.png" alt="Teddy Bear" style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Teddy Bear</div>
+          <div class="price">$34.00</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/03/shop-single-img-25.jpg" alt="Interactive Puzzle"style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Interactive Puzzle</div>
+          <div class="price">$62.00</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/04/shop-single-img-30.jpg" alt="Handmade Toy Fox"style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Handmade Toy Fox</div>
+          <div class="price">$55.00</div>
+        </div>
+      </div>
+
+   <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/03/shop-img7.jpg" alt="Handmade Toy Fox" style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Handmade Toy Fox</div>
+          <div class="price">$55.00</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://toytime-theme.myshopify.com/cdn/shop/products/shop-1_6bb81383-a05d-465f-873a-54713bad20e6.jpg?v=1706620757&width=713" alt="Handmade Toy Fox" style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Handmade Toy Fox</div>
+          <div class="price">$55.00</div>
+        </div>
+      </div>
+
+   <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://toytime-theme.myshopify.com/cdn/shop/products/shop-15.jpg?v=1706620815" alt="Handmade Toy Fox" style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Handmade Toy Fox</div>
+          <div class="price">$55.00</div>
+        </div>
+      </div><div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="product-card">
+          <div class="overlay">
+            <div class="icon-btn">&#9825;</div>
+            <!-- <div class="icon-btn">&#128065;</div> -->
+          </div>
+          <img src="https://lynna.qodeinteractive.com/wp-content/uploads/2024/04/shop-single-img-79.jpg" alt="Handmade Toy Fox" style="height: 300px;">
+          <button class="btn-cart">ADD TO CART</button>
+          <div class="tag">Interactive Toys</div>
+          <div class="title">Handmade Toy Fox</div>
+          <div class="price">$55.00</div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  
+
+
+  <section class="py-5">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <img src="https://wdtcutie.wpengine.com/wp-content/uploads/2024/02/heading-icon-09.png" alt="flowers" style="height:40px;">
+        <h2 class="mt-2">Children's Play Gallery</h2>
+        <p class="text-muted">Senectus et netus et malesuada fames ac turpis egestas maecenas. Facilisi etiam dignissim.</p>
+      </div>
+
+      <div class="row g-3">
+        <!-- Promo Card -->
+        <div class="col-lg-4" data-aos="fade-right">
+          <div class="promo-card">
+            <h6>Games & Puzzles</h6>
+            <h4 class="fw-bold">Amazing Toy<br>Collections For Kids</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus magnam. Pariatur consectetur aspernatur cupiditate aliquam eaque. Rerum excepturi ut voluptatem ad, quibusdam temporibus maiores laudantium aliquam dolorem, optio corrupti!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, mollitia.</p>
+            <p>Only $25.99</p>
+            <button class="btn">SHOP ALL PRODUCTS</button>
+            <img src="https://cdn-icons-png.freepik.com/256/13932/13932694.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="toys" />
+          </div>
+        </div>
+
+        <!-- Main Gallery Image 1 -->
+        <div class="col-lg-4" data-aos="zoom-in">
+          <img src="https://images.unsplash.com/photo-1501686637-b7aa9c48a882?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHRveXN8ZW58MHx8MHx8fDA%3D" class="img-fluid gallery-img rounded-img" alt="" style="height: 99%;">
+        </div>
+
+        <!-- Main Gallery Image 2 -->
+        <div class="col-lg-4" data-aos="fade-left">
+          <div class="row g-3">
+            <div class="col-12">
+              <img src="https://img.freepik.com/free-photo/abstract-art-made-from-3d-geometric-shapes_23-2150829281.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+            </div>
+            <div class="col-12 mt-3">
+              <img src="https://img.freepik.com/free-photo/cute-plush-toys-arrangement_23-2150312286.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="" sty> 
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Thumbnails -->
+        <div class="row mt-3 g-3 bottom-gallery" data-aos="fade-up">
+          <div class="col-6 col-md-3">
+            <img src="https://img.freepik.com/free-photo/two-tranquil-children-playing-with-wooden-toys_1398-4116.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://images.unsplash.com/photo-1575881737088-a5a2bbf44e85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHRveXN8ZW58MHx8MHx8fDA%3D" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://img.freepik.com/premium-photo/preschool-boy-girl-playing-floor-with-educational-toys-children-toddlers-h-generative-ai_874904-77078.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://img.freepik.com/free-photo/adorable-hispanic-toddler-standing-with-serious-expression-kindergarten_839833-5492.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740" class="img-fluid gallery-img rounded-img" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="offer-section container">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="offer-box">
+          <i class="bi bi-gift"></i>
+          <h4>Sign Up & Get 15% Off</h4>
+          <div class="email-input">
+            <input type="email" placeholder="Your email">
+            <button type="submit">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer container-fluid">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Logo & Text -->
+      <div class="col-lg-3 col-md-6">
+        <div class="logo"><img src="./images/logo2.png" alt="" style="width: 200px;object-fit: cover;"></div>
+        <p class="mt-3">The middle of text all the lorem Ipsum generaton the Internet tend to repeatare going to use a passage.</p>
+        <p class="fw-bold mt-3">Download app :</p>
+        <div class="app-buttons d-flex">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png" alt="Google Play">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+        </div>
+      </div>
+
+      <!-- Know us -->
+      <div class="col-lg-2 col-md-6">
+        <h6>Know us</h6>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Faq’s</a></li>
+          <li><a href="#">Blog post</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">My wishlist</a></li>
+          <li><a href="#">Return policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Our store -->
+      <div class="col-lg-2 col-md-6">
+        <h6>Our store</h6>
+        <ul>
+          <li><a href="#">Store map</a></li>
+          <li><a href="#">Our gallery</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Main shop</a></li>
+          <li><a href="#">Store site</a></li>
+          <li><a href="#">Discount</a></li>
+        </ul>
+      </div>
+
+      <!-- Useful links -->
+      <div class="col-lg-2 col-md-6">
+        <h6>Useful links</h6>
+        <ul>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Return policy</a></li>
+          <li><a href="#">Faqs</a></li>
+          <li><a href="#">Payment policy</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Terms & condition</a></li>
+        </ul>
+      </div>
+
+      <!-- Instagram -->
+      <div class="col-lg-3 col-md-12">
+        <h6>Follow on instagram</h6>
+        <div class="instagram d-flex flex-wrap">
+          <img src="https://cdn-icons-png.freepik.com/256/7105/7105764.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img1">
+          <img src="https://cdn-icons-png.freepik.com/256/2023/2023639.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img2">
+          <img src="https://cdn-icons-png.freepik.com/256/2123/2123740.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img3">
+          <img src="https://cdn-icons-png.freepik.com/256/2242/2242585.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img4">
+          <img src="https://cdn-icons-png.freepik.com/256/1737/1737875.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img5">
+          <img src="https://cdn-icons-png.freepik.com/256/1390/1390264.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img6">
+          <img src="https://cdn-icons-png.freepik.com/256/771/771122.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img6">
+          <img src="https://cdn-icons-png.freepik.com/256/11200/11200097.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" alt="img6">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Birds -->
+  <img src="https://cdn-icons-png.freepik.com/256/2514/2514694.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" class="bird-left" width="100" alt="Bird Left">
+  <img src="https://cdn-icons-png.freepik.com/256/6975/6975147.png?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_hybrid" class="bird-right" width="100" alt="Bird Right">
+
+  <!-- Back to Top -->
+  <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fa-solid fa-upload"></i></button>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>

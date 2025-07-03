@@ -564,7 +564,7 @@ a {
       margin-bottom: 15px;
     }
 
-    .product-card .overlay {
+    /* .product-card .overlay {
       position: absolute;
       top: 10px;
       left: 10px;
@@ -573,7 +573,7 @@ a {
       justify-content: space-between;
       opacity: 0;
       transition: all 0.3s ease;
-    }
+    } */
 
     .product-card:hover .overlay {
       opacity: 1;
@@ -606,6 +606,7 @@ a {
 
     .product-card .btn-cart:hover {
       background-color: #ffffffb2;
+      color: black;
     }
 
     .product-card .tag {

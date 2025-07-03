@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Responsive Navbar</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/shop.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- AOS CSS -->
@@ -18,8 +19,8 @@
   <!-- Top Navbar -->
   <header class="navbar">
     <div class="container">
-      <div class="logo"><img src="https://birthblessing-cloth.myshopify.com/cdn/shop/files/logo_9a600ddf-2795-42d7-ba66-22023b6af1a1_230x.png?v=1645447733" alt=""></div>
-    <nav class="nav-links">
+            <div class="logo"><img src="./images/logo2.png" alt="" style="height: 50px;object-fit: cover;width: 180px;"></div>
+    <nav class="nav-links mt-2">
       <ul class="desktop-menu">
         <li><a href="index.html" style="text-decoration: none;">Home</a></li>
         <li><a href="about.html">About-Us</a></li>
@@ -43,12 +44,12 @@
   </div>
   <ul class="mobile-nav">
     <li><a href="index.html" style="text-decoration: none;">Home</a></li>
-    <li><a href="about.html">About-Us</a></li>
-    <li><a href="shop.html">Shop</a></li>
+    <li><a href="about.html"style="text-decoration: none;">About-Us</a></li>
+    <li><a href="shop.html"style="text-decoration: none;">Shop</a></li>
  
-    <li><a href="Collections.html">Collections</a></li>
-    <li><a href="Blog.html">Blog</a></li>
-    <li><a href="Contact-Us.html">Contact-Us</a></li>
+    <li><a href="Collections.html"style="text-decoration: none;">Collections</a></li>
+    <li><a href="Blog.html"style="text-decoration: none;">Blog</a></li>
+    <li><a href="Contact-Us.html"style="text-decoration: none;">Contact-Us</a></li>
     
   </ul>
 </aside>
@@ -60,13 +61,212 @@
 
 
 
+<section class="about-us-section">
+    <h2>SHOP</h2>
+  </section>
 
 
 
 
+<div class="container-fluid py-4">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-lg-3 mb-4">
+      <div class="sidebar">
+        <h5>Shop By Categories</h5>
+        <ul>
+          <li><input type="checkbox"> Kids Toys (4)</li>
+          <li><input type="checkbox"> Baby Kids Clothes (13)</li>
+          <li><input type="checkbox"> Footwear (1)</li>
+          <li><input type="checkbox"> Gear & Nursery (7)</li>
+          <li><input type="checkbox"> Health & Safety (3)</li>
+          <li><input type="checkbox"> Bath & Skin Care (12)</li>
+          <li><input type="checkbox"> Kids Food (2)</li>
+        </ul>
 
+        <h5 class="mt-4">Highlight</h5>
+        <ul>
+          <li style="color: #ff4081;">All Products</li>
+          <li>Best Seller</li>
+          <li>New Arrivals</li>
+          <li>Sale</li>
+          <li>Hot Items</li>
+        </ul>
 
+        <h5 class="mt-4">Filter By Color</h5>
+        <div class="d-flex flex-wrap gap-2 mt-2">
+          <span class="color-dot" style="background: blue;"></span>
+          <span class="color-dot" style="background: brown;"></span>
+          <span class="color-dot" style="background: green;"></span>
+          <span class="color-dot" style="background: orange;"></span>
+          <span class="color-dot" style="background: pink;"></span>
+          <span class="color-dot" style="background: purple;"></span>
+          <span class="color-dot" style="background: red;"></span>
+          <span class="color-dot" style="background: yellow;"></span>
+        </div>
+      </div>
+    </div>
 
+    <!-- Products Grid -->
+    <div class="col-lg-9">
+      <div class="row g-4">
+        <!-- Product Item -->
+        <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-15-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+        <!-- Repeat this structure with discount, countdown, or different buttons -->
+        <div class="col-md-4">
+          <div class="product-card text-center position-relative">
+            <span class="discount-badge">-5%</span>
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-33-300x300.jpg" alt="Product">
+            <div class="countdown-box">502d : 19h : 38m : 29s</div>
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Batman Lace Running Shoes</h6>
+            <div class="price"><del>$40</del><span>$38</span></div>
+            <button class="btn btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+     <!-- Product Item -->
+        <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-11-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+        <!-- Repeat this structure with discount, countdown, or different buttons -->
+        <div class="col-md-4">
+          <div class="product-card text-center position-relative">
+            <span class="discount-badge">-5%</span>
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-27-300x300.jpg" alt="Product">
+            <div class="countdown-box">502d : 19h : 38m : 29s</div>
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Batman Lace Running Shoes</h6>
+            <div class="price"><del>$40</del><span>$38</span></div>
+            <button class="btn btn-add">ADD TO CART</button>
+          </div>
+        </div>
+
+                <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-30-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+                <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-2-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+                <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-26-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+                <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-29-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+                <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-31-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+            <!-- Product Item -->
+        <div class="col-md-4">
+          <div class="product-card text-center">
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-37-300x300.jpg" alt="Product">
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Attractive Clog Shoes</h6>
+            <div class="price">$<span>12</span></div>
+            <button class="btn btn-select">SELECT OPTIONS</button>
+          </div>
+        </div>
+
+        <!-- Repeat this structure with discount, countdown, or different buttons -->
+        <div class="col-md-4">
+          <div class="product-card text-center position-relative">
+            <span class="discount-badge">-5%</span>
+            <img src="https://demos.codezeel.com/wordpress/WCM09/WCM090208/default/wp-content/uploads/2023/10/02-12-300x300.jpg" alt="Product">
+            <div class="countdown-box">502d : 19h : 38m : 29s</div>
+            <div class="rating mt-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <h6 class="mt-2">Batman Lace Running Shoes</h6>
+            <div class="price"><del>$40</del><span>$38</span></div>
+            <button class="btn btn-add">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -75,12 +275,13 @@
 
   
   
-  <script>
-    AOS.init();
-  </script>
+
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 <script src="script.js"></script>
 </body>
 </html>

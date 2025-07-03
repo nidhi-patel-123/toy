@@ -1,0 +1,92 @@
+ /* ---------------------------hero--------------------------------- */
+  .about-us-section {
+      position: relative;
+      background-image: url('https://img.freepik.com/free-photo/mockup-wall-children39s-roomchildren39s-playroom-wall-white-color-background_41470-5145.jpg?uid=R195395238&ga=GA1.1.1975205788.1747372593&semt=ais_items_boosted&w=740'); /* Use your image path here */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .about-us-section h2 {
+      color: rgb(0, 0, 0);
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+    }
+
+    @media (max-width: 768px) {
+      .about-us-section {
+        height: 200px;
+      }
+
+      .about-us-section h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+
+ 
+ .product-card {
+      background: #fff;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #eee;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .discount-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #ff4d6d;
+      color: white;
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 5px;
+    }
+
+    .product-image {
+      max-height: 160px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    .price {
+      color: #ff4d6d;
+      font-weight: bold;
+    }
+
+    .rating {
+      color: #ffc107;
+      font-size: 14px;
+    }
+
+    .btn-product {
+      background: #f5f5f5;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 14px;
+      font-weight: 500;
+    }
+
+    .btn-product:hover {
+      background-color: #113a69;
+      color: white;
+    }
